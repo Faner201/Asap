@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Crafting
     - FlashLight
+    - Follower
     - Inventory
     - LiftingObject
     - Light
@@ -17,8 +18,11 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -133,99 +137,101 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1888}
     - Class: 114
-      Script: {instanceID: 2240}
+      Script: {instanceID: 2242}
     - Class: 114
-      Script: {instanceID: 2352}
+      Script: {instanceID: 2354}
     - Class: 114
-      Script: {instanceID: 2372}
+      Script: {instanceID: 2374}
     - Class: 114
-      Script: {instanceID: 2382}
+      Script: {instanceID: 2384}
     - Class: 114
-      Script: {instanceID: 2478}
+      Script: {instanceID: 2480}
     - Class: 114
-      Script: {instanceID: 2710}
+      Script: {instanceID: 2712}
     - Class: 114
-      Script: {instanceID: 3146}
+      Script: {instanceID: 3148}
     - Class: 114
-      Script: {instanceID: 3200}
+      Script: {instanceID: 3202}
     - Class: 114
-      Script: {instanceID: 3270}
+      Script: {instanceID: 3272}
     - Class: 114
-      Script: {instanceID: 3338}
+      Script: {instanceID: 3340}
     - Class: 114
-      Script: {instanceID: 3364}
+      Script: {instanceID: 3366}
     - Class: 114
-      Script: {instanceID: 3432}
+      Script: {instanceID: 3434}
     - Class: 114
-      Script: {instanceID: 3562}
+      Script: {instanceID: 3564}
     - Class: 114
-      Script: {instanceID: 3686}
+      Script: {instanceID: 3688}
     - Class: 114
-      Script: {instanceID: 3998}
+      Script: {instanceID: 4000}
     - Class: 114
-      Script: {instanceID: 4110}
+      Script: {instanceID: 4112}
     - Class: 114
-      Script: {instanceID: 4444}
+      Script: {instanceID: 4446}
     - Class: 114
-      Script: {instanceID: 4976}
+      Script: {instanceID: 4978}
     - Class: 114
-      Script: {instanceID: 4992}
+      Script: {instanceID: 4994}
     - Class: 114
-      Script: {instanceID: 5236}
+      Script: {instanceID: 5238}
     - Class: 114
-      Script: {instanceID: 5284}
+      Script: {instanceID: 5286}
     - Class: 114
-      Script: {instanceID: 5292}
+      Script: {instanceID: 5294}
     - Class: 114
-      Script: {instanceID: 5302}
+      Script: {instanceID: 5304}
     - Class: 114
-      Script: {instanceID: 5362}
-    - Class: 114
-      Script: {instanceID: 5558}
+      Script: {instanceID: 5364}
     - Class: 114
       Script: {instanceID: 5560}
     - Class: 114
-      Script: {instanceID: 5584}
+      Script: {instanceID: 5562}
     - Class: 114
-      Script: {instanceID: 5862}
+      Script: {instanceID: 5586}
     - Class: 114
-      Script: {instanceID: 5992}
+      Script: {instanceID: 5864}
     - Class: 114
-      Script: {instanceID: 6132}
+      Script: {instanceID: 5994}
     - Class: 114
-      Script: {instanceID: 6146}
+      Script: {instanceID: 6134}
     - Class: 114
-      Script: {instanceID: 6224}
+      Script: {instanceID: 6148}
     - Class: 114
-      Script: {instanceID: 6230}
+      Script: {instanceID: 6226}
     - Class: 114
-      Script: {instanceID: 6330}
+      Script: {instanceID: 6232}
     - Class: 114
-      Script: {instanceID: 6364}
+      Script: {instanceID: 6332}
     - Class: 114
-      Script: {instanceID: 6410}
+      Script: {instanceID: 6366}
     - Class: 114
-      Script: {instanceID: 6478}
+      Script: {instanceID: 6412}
     - Class: 114
-      Script: {instanceID: 6488}
+      Script: {instanceID: 6480}
     - Class: 114
-      Script: {instanceID: 6600}
+      Script: {instanceID: 6490}
     - Class: 114
-      Script: {instanceID: 6738}
+      Script: {instanceID: 6602}
     - Class: 114
-      Script: {instanceID: 6752}
+      Script: {instanceID: 6740}
     - Class: 114
-      Script: {instanceID: 6858}
+      Script: {instanceID: 6754}
     - Class: 114
-      Script: {instanceID: 6914}
+      Script: {instanceID: 6860}
     - Class: 114
-      Script: {instanceID: 7364}
+      Script: {instanceID: 6916}
     - Class: 114
-      Script: {instanceID: 7548}
+      Script: {instanceID: 7366}
     - Class: 114
-      Script: {instanceID: 7880}
+      Script: {instanceID: 7550}
     - Class: 114
-      Script: {instanceID: 8126}
+      Script: {instanceID: 7882}
+    - Class: 114
+      Script: {instanceID: 8128}
+    - Class: 114
+      Script: {instanceID: 27608}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1517,7 +1523,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 080e0755139effae252d478f42d395a5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Follower
   platform: 2
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/fanfurick/Documents/Game-1.app
+  playerPath: /Users/fanfurick/Documents/Game-2.app

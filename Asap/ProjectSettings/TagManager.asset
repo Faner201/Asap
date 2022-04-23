@@ -49,14 +49,17 @@ TagManager:
   - name: Foreground
     uniqueID: 211220339
     locked: 0
+  - name: Stairs
+    uniqueID: 2917830933
+    locked: 0
+  - name: Item
+    uniqueID: 1536267171
+    locked: 0
   - name: Player
     uniqueID: 3155459867
     locked: 0
   - name: Enemy
     uniqueID: 254200605
-    locked: 0
-  - name: Item
-    uniqueID: 1536267171
     locked: 0
   - name: UI
     uniqueID: 1630678565
