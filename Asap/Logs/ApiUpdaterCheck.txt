@@ -48,3 +48,387 @@ C# parse time         : 389ms
 candidates check time : 71ms
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 24.04.2022 13:32:42 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 152,715ms
+moved types parse time: 151ms
+candidates parse time : 5ms
+C# parse time         : 499ms
+candidates check time : 108ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 24.04.2022 19:22:35 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 141,796ms
+moved types parse time: 144ms
+candidates parse time : 6ms
+C# parse time         : 440ms
+candidates check time : 100ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 24.04.2022 20:42:22 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 102,078ms
+moved types parse time: 142ms
+candidates parse time : 7ms
+C# parse time         : 407ms
+candidates check time : 89ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 24.04.2022 20:42:33 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 99,722ms
+moved types parse time: 132ms
+candidates parse time : 7ms
+C# parse time         : 378ms
+candidates check time : 81ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 0:11:03 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 128,968ms
+moved types parse time: 135ms
+candidates parse time : 5ms
+C# parse time         : 367ms
+candidates check time : 61ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 13:04:56 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 140,923ms
+moved types parse time: 131ms
+candidates parse time : 5ms
+C# parse time         : 388ms
+candidates check time : 85ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 13:05:02 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 86,382ms
+moved types parse time: 142ms
+candidates parse time : 7ms
+C# parse time         : 539ms
+candidates check time : 166ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 13:05:34 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 93,801ms
+moved types parse time: 135ms
+candidates parse time : 6ms
+C# parse time         : 545ms
+candidates check time : 162ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 13:05:37 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 89,946ms
+moved types parse time: 136ms
+candidates parse time : 8ms
+C# parse time         : 531ms
+candidates check time : 174ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 13:06:22 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 98,462ms
+moved types parse time: 133ms
+candidates parse time : 7ms
+C# parse time         : 542ms
+candidates check time : 168ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 13:06:43 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 88,079ms
+moved types parse time: 134ms
+candidates parse time : 8ms
+C# parse time         : 557ms
+candidates check time : 172ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 13:06:50 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 102,873ms
+moved types parse time: 129ms
+candidates parse time : 7ms
+C# parse time         : 535ms
+candidates check time : 179ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 13:06:53 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 86,74ms
+moved types parse time: 134ms
+candidates parse time : 7ms
+C# parse time         : 567ms
+candidates check time : 175ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 13:06:59 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 86,97ms
+moved types parse time: 133ms
+candidates parse time : 7ms
+C# parse time         : 551ms
+candidates check time : 176ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 13:07:09 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 98,306ms
+moved types parse time: 130ms
+candidates parse time : 6ms
+C# parse time         : 537ms
+candidates check time : 158ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 13:07:51 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 88,477ms
+moved types parse time: 134ms
+candidates parse time : 9ms
+C# parse time         : 556ms
+candidates check time : 179ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 13:08:02 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 119,21ms
+moved types parse time: 132ms
+candidates parse time : 6ms
+C# parse time         : 537ms
+candidates check time : 170ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 13:10:09 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 123,026ms
+moved types parse time: 131ms
+candidates parse time : 7ms
+C# parse time         : 684ms
+candidates check time : 214ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 13:10:40 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 108,256ms
+moved types parse time: 135ms
+candidates parse time : 6ms
+C# parse time         : 586ms
+candidates check time : 186ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 13:16:20 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 132,98ms
+moved types parse time: 150ms
+candidates parse time : 7ms
+C# parse time         : 576ms
+candidates check time : 194ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 16:43:40 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from /Users/fanfurick/Documents/GitHub/Asap/Asap/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <6358200448ef46218e7be4a1b6be469f>:0 
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from /Users/fanfurick/Documents/GitHub/Asap/Asap/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <6358200448ef46218e7be4a1b6be469f>:0 
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 117,414ms
+moved types parse time: 142ms
+candidates parse time : 7ms
+C# parse time         : 612ms
+candidates check time : 173ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 16:47:12 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 91,24ms
+moved types parse time: 140ms
+candidates parse time : 6ms
+C# parse time         : 542ms
+candidates check time : 170ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 16:47:16 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 86,833ms
+moved types parse time: 146ms
+candidates parse time : 9ms
+C# parse time         : 568ms
+candidates check time : 187ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 16:52:57 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 91,835ms
+moved types parse time: 166ms
+candidates parse time : 6ms
+C# parse time         : 551ms
+candidates check time : 187ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 17:00:35 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 90,695ms
+moved types parse time: 139ms
+candidates parse time : 7ms
+C# parse time         : 547ms
+candidates check time : 169ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 17:11:00 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 85,195ms
+moved types parse time: 141ms
+candidates parse time : 6ms
+C# parse time         : 559ms
+candidates check time : 179ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 17:15:07 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 88,626ms
+moved types parse time: 135ms
+candidates parse time : 6ms
+C# parse time         : 546ms
+candidates check time : 166ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 17:16:48 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 87,263ms
+moved types parse time: 141ms
+candidates parse time : 6ms
+C# parse time         : 515ms
+candidates check time : 143ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 17:17:27 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 90,116ms
+moved types parse time: 141ms
+candidates parse time : 6ms
+C# parse time         : 481ms
+candidates check time : 112ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 17:18:06 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 86,028ms
+moved types parse time: 134ms
+candidates parse time : 5ms
+C# parse time         : 456ms
+candidates check time : 104ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 17:18:41 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 84,309ms
+moved types parse time: 145ms
+candidates parse time : 6ms
+C# parse time         : 426ms
+candidates check time : 93ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 17:19:13 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 93,105ms
+moved types parse time: 139ms
+candidates parse time : 6ms
+C# parse time         : 495ms
+candidates check time : 112ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 17:22:09 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 89,122ms
+moved types parse time: 136ms
+candidates parse time : 6ms
+C# parse time         : 436ms
+candidates check time : 88ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 17:22:55 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 90,623ms
+moved types parse time: 144ms
+candidates parse time : 6ms
+C# parse time         : 572ms
+candidates check time : 302ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 17:23:58 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 91,326ms
+moved types parse time: 140ms
+candidates parse time : 6ms
+C# parse time         : 512ms
+candidates check time : 169ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 17:24:39 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 94,062ms
+moved types parse time: 138ms
+candidates parse time : 5ms
+C# parse time         : 424ms
+candidates check time : 94ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 25.04.2022 17:37:49 : Starting /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 99,488ms
+moved types parse time: 143ms
+candidates parse time : 6ms
+C# parse time         : 474ms
+candidates check time : 103ms
+console write time    : 0ms
+

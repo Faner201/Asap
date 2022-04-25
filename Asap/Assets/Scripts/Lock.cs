@@ -1,16 +1,10 @@
 using UnityEngine;
 
-public class Lock : MonoBehaviour
+public class Lock : InterectiveItem
 {
-    private ScrollLock[] clocks;
-
-
-    private void Start() 
+    [SerializeField] private LockUI lockUI;
+    public override void Interact()
     {
-        clocks = new ScrollLock[transform.childCount];
-        for(int i = 0; i < clocks.Length; i++)
-        {
-            clocks[i] = transform.GetChild(i).GetComponent<ScrollLock>();
-        }
+       lockUI.gameObject.SetActive(true);
     }
 }

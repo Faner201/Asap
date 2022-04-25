@@ -22,103 +22,103 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51149
+49578
 Successfully changed project path to: /Users/fanfurick/Documents/GitHub/Asap/Asap
 /Users/fanfurick/Documents/GitHub/Asap/Asap
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 60.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 61.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.31f1 (6b54b7616050)
 [Subsystems] Discovering subsystems at path /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/fanfurick/Documents/GitHub/Asap/Asap/Assets
 GfxDevice: creating device client; threaded=0
-2022-04-23 21:33:35.268 Unity[8013:140659] (null) preferred device: Apple M1 Pro (high power)
-2022-04-23 21:33:35.268 Unity[8013:140659] Metal devices available: 1
-2022-04-23 21:33:35.268 Unity[8013:140659] 0: Apple M1 Pro (high power)
-2022-04-23 21:33:35.269 Unity[8013:140659] Using device Apple M1 Pro (high power)
+2022-04-25 19:03:36.833 Unity[2111:50089] (null) preferred device: Apple M1 Pro (high power)
+2022-04-25 19:03:36.834 Unity[2111:50089] Metal devices available: 1
+2022-04-25 19:03:36.834 Unity[2111:50089] 0: Apple M1 Pro (high power)
+2022-04-25 19:03:36.834 Unity[2111:50089] Using device Apple M1 Pro (high power)
 Initializing Metal device caps: Apple M1 Pro
 Initialize mono
 Mono path[0] = '/Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56013
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56111
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/fanfurick/Documents/unity/2020.3.31f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000411 seconds.
+Registered in 0.002522 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 65.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.317 seconds
+- Completed reload, in  1.332 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1318ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (1333ms)
+		BeginReloadAssembly (119ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1111ms)
-			LoadAssemblies (88ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1090ms)
+			LoadAssemblies (117ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
+			SetupTypeCache (173ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (574ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (565ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (66ms)
-				BeforeProcessingInitializeOnLoad (32ms)
-				ProcessInitializeOnLoadAttributes (347ms)
-				ProcessInitializeOnLoadMethodAttributes (112ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (35ms)
+				ProcessInitializeOnLoadAttributes (329ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001362 seconds.
+Registered in 0.003194 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 65.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 68.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.561 seconds
+- Completed reload, in  2.428 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2562ms)
-		BeginReloadAssembly (256ms)
+	ReloadAssembly (2440ms)
+		BeginReloadAssembly (272ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (32ms)
+			DisableScriptedObjects (34ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (2214ms)
-			LoadAssemblies (204ms)
+		EndReloadAssembly (2078ms)
+			LoadAssemblies (216ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (401ms)
+			SetupTypeCache (383ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (1192ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (1095ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (66ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (892ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (806ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (41ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000455 seconds.
+Validating Project structure ... 0.000753 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.000426 seconds.
+Upgrading shader files ...0.000723 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -128,20 +128,20 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Users/fanfurick/Documents/unity/2020.3.31f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
 Initializing Unity extensions:
-2022-04-23 21:33:40.731 Unity[8013:140659] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000280a840 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-04-23 21:33:40.736 Unity[8013:140659] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002860850 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-25 19:03:42.402 Unity[2111:50089] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000027931e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-25 19:03:42.406 Unity[2111:50089] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002788ee0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3516 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 275.3 MB.
-System memory in use after: 274.9 MB.
+Unloading 3521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 279.1 MB.
+System memory in use after: 278.7 MB.
 
-Unloading 201 unused Assets to reduce memory usage. Loaded Objects now: 3985.
-Total: 3.121709 ms (FindLiveObjects: 0.166291 ms CreateObjectMapping: 0.082583 ms MarkObjects: 2.565375 ms  DeleteObjects: 0.306292 ms)
+Unloading 203 unused Assets to reduce memory usage. Loaded Objects now: 3991.
+Total: 2.769791 ms (FindLiveObjects: 0.142625 ms CreateObjectMapping: 0.083000 ms MarkObjects: 2.273500 ms  DeleteObjects: 0.269417 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -155,764 +155,224 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefab/Floor.prefab
-  artifactKey: Guid(13feb639c148f804d8ee42b706243252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Floor.prefab using Guid(13feb639c148f804d8ee42b706243252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5db99f168c896e78fadaceee6e5cccc') in 1.073443 seconds 
+  path: Assets/Level 1 Image/место под код.PNG
+  artifactKey: Guid(af0723860a316467db17ab7179a9ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level 1 Image/место под код.PNG using Guid(af0723860a316467db17ab7179a9ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1789f4d4e519867811df1c2be55690bc') in 0.616105 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 96.256027 seconds.
-  path: Assets/Prefab/element.prefab
-  artifactKey: Guid(3975d7fadc7df4b85bbfad59b5966ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/element.prefab using Guid(3975d7fadc7df4b85bbfad59b5966ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1e3dab142aa2be02f8d9576cb0cd66') in 0.020770 seconds 
+  Time since last request: 0.000204 seconds.
+  path: Assets/Level 1 Image/замок.PNG
+  artifactKey: Guid(933b34c80034a4d828613d401e11034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level 1 Image/замок.PNG using Guid(933b34c80034a4d828613d401e11034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84ab97f7753fac53ae05cdde154ee14') in 0.019460 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1507.264668 seconds.
-  path: Assets/Prefab/element.prefab
-  artifactKey: Guid(3975d7fadc7df4b85bbfad59b5966ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/element.prefab using Guid(3975d7fadc7df4b85bbfad59b5966ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c13c78130639260cb96a372189d510') in 0.011226 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.631492 seconds.
-  path: Assets/Prefab/element.prefab
-  artifactKey: Guid(3975d7fadc7df4b85bbfad59b5966ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/element.prefab using Guid(3975d7fadc7df4b85bbfad59b5966ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1b2bc3001346225b71cd9f09c48b3f') in 0.006767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 335.454955 seconds.
-  path: Assets/Prefab/element.prefab
-  artifactKey: Guid(3975d7fadc7df4b85bbfad59b5966ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/element.prefab using Guid(3975d7fadc7df4b85bbfad59b5966ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e76bf9351ec74779147aa787ecf5292') in 0.006015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.708700 seconds.
-  path: Assets/Prefab/element.prefab
-  artifactKey: Guid(3975d7fadc7df4b85bbfad59b5966ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/element.prefab using Guid(3975d7fadc7df4b85bbfad59b5966ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4373f6bc0721658858d7fb197a894003') in 0.006808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.439247 seconds.
-  path: Assets/Prefab/element.prefab
-  artifactKey: Guid(3975d7fadc7df4b85bbfad59b5966ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/element.prefab using Guid(3975d7fadc7df4b85bbfad59b5966ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6999413b8ac2d562487fc0bc6f7df5') in 0.006172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.299570 seconds.
-  path: Assets/Prefab/element.prefab
-  artifactKey: Guid(3975d7fadc7df4b85bbfad59b5966ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/element.prefab using Guid(3975d7fadc7df4b85bbfad59b5966ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a6d59fecc66e1a229e53129bc11065') in 0.006507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.220238 seconds.
-  path: Assets/Prefab/element.prefab
-  artifactKey: Guid(3975d7fadc7df4b85bbfad59b5966ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/element.prefab using Guid(3975d7fadc7df4b85bbfad59b5966ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313dffb5396c7aba41267a0218dee0d5') in 0.006495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1302.486684 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe4d4ca54810a040ba1d05469314f85') in 0.006462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 430.428424 seconds.
-  path: Assets/Prefab/Pole Slot(center).prefab
-  artifactKey: Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot(center).prefab using Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01bb2384bb6ac2f076ca3dd5bac9508') in 0.006910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 96.555679 seconds.
-  path: Assets/Prefab/Pole Slot(center).prefab
-  artifactKey: Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot(center).prefab using Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58999f3bc9ab95a95bfd1d2b11e2925') in 0.006173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.625603 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4be579293183c5b0e29d8a8ed85b7cc') in 0.006759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 235.029013 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b70eba854274c7492e46f1f049ac2c6') in 0.006629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.363747 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325df8ded3a482de61f7f19ef1201792') in 0.006415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.050941 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd830747a40d159b38ba08e74189cc2') in 0.006290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.119106 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7547772af205ce86e4d60fe52f5b28b0') in 0.006692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.641354 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0760539367ca0c751e0affd842aa55c') in 0.006206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.662140 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2eb7f4563359c1c00e1be67238c323') in 0.006329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.476484 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f188b067c8cf476eac00a3b291cadd') in 0.006596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.039269 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382deeffc2c29c616bef3f62b9849e5f') in 0.010470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.260229 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7e19b78c7c6f49cb0bc82f10643370') in 0.006877 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.529044 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62ef4b95cb8dc567890ecb7f37fc9c3') in 0.006157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 142.778023 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44fe09e6583ec6148b75e93bb8f94e12') in 0.006326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.402265 seconds.
-  path: Assets/Prefab/Slot image.prefab
-  artifactKey: Guid(42f9ad2d3b2414d2788ac7d8bf638c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Slot image.prefab using Guid(42f9ad2d3b2414d2788ac7d8bf638c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0605d029ad66739c2e21ea9a4630a74') in 0.006872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f7674b723d1bcb68cd093704017532') in 0.006016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.970720 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edda3b297ffc745606149362c7f5e270') in 0.007899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.098816 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ca8a1fd3f0a2ba832e3b376425492f') in 0.020215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.378394 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156939a6ffcfa0ed0117b48cd66f93f0') in 0.011665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.556895 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ed7b8454ad35611ff8eddc00e59b0d') in 0.006418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.669017 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b270d5fdc7b5182de014c23d743ddd0') in 0.006951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.144369 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99e6e199803d1426cb07f06b33b1630') in 0.006171 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.590712 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f9e10caa4eef67def4c0d759550289') in 0.006423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.538534 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83803b0c97fa3312e7e4eb6546065b98') in 0.006680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.229463 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa72e60d59296958a40243cee7ef85f') in 0.006360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.425056 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e4f597fbca6b6937321f1653265f3b') in 0.008682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.298478 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec9a78a23ba5e440a6b5aa988a5ce4b') in 0.006056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.825887 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775bffa9b2984cade8c4b52ff27fd55b') in 0.006260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.690866 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2675628900ad58502b4cb23581aafd8') in 0.006747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.249682 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382cba79f33a6188ecbfa748d306a1a6') in 0.006262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.296196 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417afca1831ec28af5f6d3f11aa27fe4') in 0.006768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.648612 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669fa07db1f5f0197eac14bdac33c323') in 0.006388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.055698 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49d8253c500ba296fc9d57ed926dd5e') in 0.006256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.648407 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f534e1ae7aa29f06e762db816bb3e5bf') in 0.006241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 92.246696 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c3170d8756672412e031b5e3280059') in 0.006356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.077517 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa8a674d5439c014daa42e84f75297f') in 0.006355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.923789 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2caedb1678e8270fc4834d78e3759c08') in 0.006665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.528302 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a37bd246d59fb41b2bba4b849b86aa1') in 0.006566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.641316 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc109f010349371341c7e9960b78c0d') in 0.006128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.079008 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0bfa5d28b98ee24a22467d2aabdacf') in 0.006418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.618265 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fec824699ea45a1ddf50e61faa5814e') in 0.009362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.227483 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f886dfef88b9af49ab867de58c781f9d') in 0.006589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.921255 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b34cbdf5a7a6a65931bb9e7ba00daf') in 0.006231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.839987 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4ce77c9b0d0a635ca69efdea32f9eb') in 0.006281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.744323 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b20fc5f722d7bf3ffbe7610c4383f0') in 0.006379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.259169 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678a732341c82cf3edbb7f98164c58fd') in 0.006500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.537306 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f469060b6824e709f24e6ff630aeec') in 0.006685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.379125 seconds.
-  path: Assets/Prefab/Pole Object.prefab
-  artifactKey: Guid(8ddaf00ede4fc4afb9d00b385bb06572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Object.prefab using Guid(8ddaf00ede4fc4afb9d00b385bb06572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294661a7a46749cf8e08e27984442e9d') in 0.006576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.412290 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8a8069cdcb5c49faa91fa6c6fd0003') in 0.006797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.412609 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6415e54e39c45c0de642b2cc31d6c791') in 0.011675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.960176 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c96e16ef2536f18eadedb4807ba9dd4') in 0.007021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.089280 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a13475b6e42efe6adf052f674d92fdd') in 0.006447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.320966 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbd37d3eeaa4f7bab884710dd1dea0e') in 0.006448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.097418 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd004fa5397bf925cf6c48219185a4a4') in 0.006495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 83.658862 seconds.
-  path: Assets/Prefab/Pole Object.prefab
-  artifactKey: Guid(8ddaf00ede4fc4afb9d00b385bb06572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Object.prefab using Guid(8ddaf00ede4fc4afb9d00b385bb06572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93a81dbadc1dc3c1de07033c736f9c0') in 0.006758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Prefab/Slot image.prefab
-  artifactKey: Guid(42f9ad2d3b2414d2788ac7d8bf638c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Slot image.prefab using Guid(42f9ad2d3b2414d2788ac7d8bf638c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ac425e5e0a5f187fceca91e3f0a591') in 0.006259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddbc5d847432a7f0d0b3267c73ecac8') in 0.006814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.026413 seconds.
-  path: Assets/Prefab/Pole Object.prefab
-  artifactKey: Guid(8ddaf00ede4fc4afb9d00b385bb06572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Object.prefab using Guid(8ddaf00ede4fc4afb9d00b385bb06572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49271d7bdbe25e88d8f11782797eaae') in 0.006471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Prefab/Slot image.prefab
-  artifactKey: Guid(42f9ad2d3b2414d2788ac7d8bf638c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Slot image.prefab using Guid(42f9ad2d3b2414d2788ac7d8bf638c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41cbb7e771a8657aa7446c38805e7cf') in 0.006462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e470e2154c3a48589a169d1218d4d41f') in 0.008880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.432587 seconds.
-  path: Assets/Prefab/Pole Object.prefab
-  artifactKey: Guid(8ddaf00ede4fc4afb9d00b385bb06572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Object.prefab using Guid(8ddaf00ede4fc4afb9d00b385bb06572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7098094ee2a0e957e6a369d9702223ca') in 0.005971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Prefab/Slot image.prefab
-  artifactKey: Guid(42f9ad2d3b2414d2788ac7d8bf638c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Slot image.prefab using Guid(42f9ad2d3b2414d2788ac7d8bf638c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208c9960abd9d52794ca7baa41b1b92e') in 0.005908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30109fa08a05df30be2905e106850c4d') in 0.006860 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 464.282088 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d99ddb19caa6a6f6dbc4507235f0389') in 0.007350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.012396 seconds.
-  path: Assets/Prefab/Pole Object.prefab
-  artifactKey: Guid(8ddaf00ede4fc4afb9d00b385bb06572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Object.prefab using Guid(8ddaf00ede4fc4afb9d00b385bb06572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5682f15513dcae641e79aae9110a47') in 0.006689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f021faf14238308be3d83d3055d8651c') in 0.006129 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.065429 seconds.
-  path: Assets/Prefab/Pole Object.prefab
-  artifactKey: Guid(8ddaf00ede4fc4afb9d00b385bb06572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Object.prefab using Guid(8ddaf00ede4fc4afb9d00b385bb06572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eeefbf441aee5284d86ffafadfb50a0') in 0.005917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Prefab/Slot image.prefab
-  artifactKey: Guid(42f9ad2d3b2414d2788ac7d8bf638c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Slot image.prefab using Guid(42f9ad2d3b2414d2788ac7d8bf638c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1551748276b75b761b1c7ac0327683d8') in 0.006339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf70c5ba6c8810cff059a0d690081d2e') in 0.006670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 119.316903 seconds.
-  path: Assets/Prefab/Pole Slot(center).prefab
-  artifactKey: Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot(center).prefab using Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae2f3f09d1cc85fda5a987ffe9d543d') in 0.007321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.833931 seconds.
-  path: Assets/Prefab/Pole Slot(center).prefab
-  artifactKey: Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot(center).prefab using Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbdbc1c0ac735e07d6d6bca4f597ce9') in 0.007481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.078399 seconds.
-  path: Assets/Prefab/Pole Slot(center).prefab
-  artifactKey: Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot(center).prefab using Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74bbb43e1b14fb6e94dd96845961421') in 0.007284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.609575 seconds.
-  path: Assets/Prefab/Pole Slot(center).prefab
-  artifactKey: Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot(center).prefab using Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689458a27665b7fc3f99056e6b491263') in 0.006897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.484110 seconds.
-  path: Assets/Prefab/Pole Slot(center).prefab
-  artifactKey: Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot(center).prefab using Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d09cb2084cf6be5021868a14df83ddc') in 0.006857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.717906 seconds.
-  path: Assets/Prefab/Pole Slot(center).prefab
-  artifactKey: Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot(center).prefab using Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b929bb0f2308c82c9ed8014f72754f92') in 0.006807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.991077 seconds.
-  path: Assets/Prefab/Pole Slot(center).prefab
-  artifactKey: Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot(center).prefab using Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7401437eb7c012fb80b8f2fdfa346a') in 0.006998 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.474465 seconds.
-  path: Assets/Prefab/Pole Slot(center).prefab
-  artifactKey: Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot(center).prefab using Guid(e6c2776294a7849c58959f375b8c61f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679d09267bf7b8e3b763622c8c80c261') in 0.007104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 497.510979 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da73d1bd58476204af56b449624b8b1') in 0.006090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.782770 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5175368ded01efa2fb20fbb7e5022d0') in 0.008293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.045747 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3561a0bacca1b4815088163d92e8da25') in 0.006708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.874666 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e205d5960ff5538ad3270a8647291e') in 0.006153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.713032 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de6e0e5b91fa2485d6c45ca46fb6e21') in 0.010652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.448159 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046cf9e7a0563bbf49dad53fab56ecbf') in 0.012015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.126336 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8752963bc61ea956b485685fba925683') in 0.006741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.589070 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7417b69876818c67e3faf07741aee705') in 0.006786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.222275 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afaa4921e882c2b8adf7a56d513672f2') in 0.006798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.625690 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff234fa44605c58d6427cfd5eb33c9a') in 0.006519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.406714 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c1aa067789be937261184893e4190e') in 0.006905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.600029 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c0f75a1d03bc148d8301bfb8eeb799') in 0.007449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.023517 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95db3858f397b6deb04520636045ef97') in 0.007125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.735964 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f7641339558849d40d3bcff9cd1a31') in 0.006672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.722035 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eea961523678c2cc3b868524771f915') in 0.006777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.840546 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c46a8dc0897e02c3e1fe9895d926420') in 0.006971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 62.233831 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b394b0d771867352e844648847e6eab5') in 0.007013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.246986 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d27961c616e05602a37218cc5572ad') in 0.006843 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.320511 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a45809c7a01d1e39374cd4352494d3e') in 0.006644 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.624178 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a17149a889245d34956b670c51620ba') in 0.006656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.278056 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248d9d0e189bb27b970a486457441f91') in 0.006825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.626010 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bb0278bcc1c351ae20b678ae7600b6') in 0.007436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.841223 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c01d296e706216a7aca914b264e5fa8') in 0.007312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.089892 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972ef403e287870f1f41ca4b433fdf1a') in 0.006661 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.940828 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6bb4fea3f190e5cfa028937566e5e4') in 0.006993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.265127 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8765123abb97f9e5d2328a3506c2b43f') in 0.006838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.032417 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e7a5ceba7189cf0b3757eb7980e99c') in 0.006698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.263971 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6584cf9e95c8f999f3b46f4b9855f7cd') in 0.006630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 84.185918 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f076be4feacdcb1bb86fd882001ec8d1') in 0.006687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.861918 seconds.
-  path: Assets/Prefab/Pole Slot.prefab
-  artifactKey: Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pole Slot.prefab using Guid(32552bca849884e57b8d3528340a9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465c233b7e32964ed80f63ed1bc834df') in 0.007091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1424.654179 seconds.
+  Time since last request: 479.831238 seconds.
   path: Assets/Prefab/Slot Lock.prefab
   artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba2018b92a3c2d42730ab47c154e756') in 0.009273 seconds 
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466fcb28aa2990f4480c281991aed4a7') in 0.114546 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 642.718099 seconds.
-  path: Assets/Scripts/ScrollLock.cs
-  artifactKey: Guid(6ddef21ef0e534b9a81c35af02631411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScrollLock.cs using Guid(6ddef21ef0e534b9a81c35af02631411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61229ed7cb0dab901f4e615756fd937c') in 0.145388 seconds 
+  Time since last request: 15.251291 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be085b3f32462d24766a4038a84bc6f') in 0.007320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.059368 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4831f608b98c83acfafdcea569a6b78') in 0.005418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 178.373024 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453e881ec4a540a414fcad0810a9ea32') in 0.010100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.602441 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dcdb15ec81e9d53f745527244078f8') in 0.005560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.319314 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d8fc9b70cc7a8c584dd0ddee5a07a9') in 0.005703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.647434 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d69de5ec075a4db3af5d35c93201988') in 0.005573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.033487 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66164d8444453b2e9f1a695900f23268') in 0.005693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.783796 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2dea7d7d379d5abf9d873223aff52a0') in 0.005715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 230.464427 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12f2721fef74069f56c08cc8a69b4a9') in 0.005585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.073061 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca82c71bb1f4560f61fc89962a6bad9b') in 0.005671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.893893 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b9dbbf47466565b1883b7b46447203') in 0.005911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.200168 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc006d18e9d14551b4c70a98e2d74c3a') in 0.005554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.623435 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15f9fbfcd61efe6ed12678a41a0d9b3') in 0.005752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.964119 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0cfb7d1f73197f71fff28f5deb7065') in 0.006095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.458945 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d58f95e9c516b0bff48d983de954f3e') in 0.005698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.286090 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0b6cfd77fbb2fb7b76e66526ee8bb4') in 0.005690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.455467 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb47acb5f5db3c6d6cb0b3c48d48156') in 0.005819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.959984 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236eab81d2b79f744da955d422f1676d') in 0.005697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.752334 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e027613968e4d839f013edba218dbf') in 0.005884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.620100 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997e249448fd6d4e06f8d895311f07b9') in 0.005547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 137.959417 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bc6a12c348fb48fc6b06fd56187a7d') in 0.005586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.830134 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2fd4554ffa9122ab41dfcb40161c95') in 0.005772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.430093 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cc54a4ef436438bff9113790991b1a') in 0.005615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.434594 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb05bb4564752f3e2eb9dcd951a26e7') in 0.005617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.041416 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61300f53b144573266b41d2eac969c2a') in 0.005568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.036160 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69552b83a8e463e6b2da6587c0a76380') in 0.005428 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002138 seconds.
+Registered in 0.001299 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-23 23:55:53.913 Unity[8013:140659] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002827870 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-25 19:28:01.293 Unity[2111:50089] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000027ef100 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
-- Completed reload, in  2.837 seconds
+- Completed reload, in  2.508 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2838ms)
-		BeginReloadAssembly (271ms)
+	ReloadAssembly (2509ms)
+		BeginReloadAssembly (222ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (50ms)
+			DisableScriptedObjects (39ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (86ms)
-		EndReloadAssembly (2469ms)
-			LoadAssemblies (213ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (2195ms)
+			LoadAssemblies (194ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (399ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (1239ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1106ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (233ms)
-				ProcessInitializeOnLoadAttributes (943ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				BeforeProcessingInitializeOnLoad (183ms)
+				ProcessInitializeOnLoadAttributes (863ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (82ms)
+			AwakeInstancesAfterBackupRestoration (60ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3398 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 278.7 MB.
-System memory in use after: 278.8 MB.
+Unloading 3402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 279.6 MB.
+System memory in use after: 279.7 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4036.
-Total: 2.733333 ms (FindLiveObjects: 0.150292 ms CreateObjectMapping: 0.078667 ms MarkObjects: 2.365375 ms  DeleteObjects: 0.138083 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4004.
+Total: 2.827000 ms (FindLiveObjects: 0.175625 ms CreateObjectMapping: 0.109041 ms MarkObjects: 2.417334 ms  DeleteObjects: 0.124042 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -926,237 +386,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 140.061185 seconds.
-  path: Assets/Scripts/Lock.cs
-  artifactKey: Guid(5a6c9eb9cfe4941d9824c83942ae635a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lock.cs using Guid(5a6c9eb9cfe4941d9824c83942ae635a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f091084f323a178dc22eeca69a0e4dc') in 0.010653 seconds 
+  Time since last request: 31.767024 seconds.
+  path: Assets/Prefab/Slot Lock.prefab
+  artifactKey: Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Slot Lock.prefab using Guid(535506ecfbdc94ea4be2fd8f7163413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd5c1beb33b36e93c0b9604c5de8aa2') in 0.076232 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002625 seconds.
+Registered in 0.001450 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-23 23:58:10.907 Unity[8013:140659] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002827e20 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-25 19:29:40.785 Unity[2111:50089] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002792d10 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
-- Completed reload, in  2.753 seconds
+- Completed reload, in  2.696 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2754ms)
-		BeginReloadAssembly (224ms)
+	ReloadAssembly (2697ms)
+		BeginReloadAssembly (237ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (44ms)
+			DisableScriptedObjects (45ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (2435ms)
-			LoadAssemblies (199ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (2362ms)
+			LoadAssemblies (213ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (390ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (1244ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (195ms)
-				ProcessInitializeOnLoadAttributes (987ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (78ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3399 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 279.1 MB.
-System memory in use after: 279.2 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4040.
-Total: 2.721167 ms (FindLiveObjects: 0.138083 ms CreateObjectMapping: 0.080208 ms MarkObjects: 2.381584 ms  DeleteObjects: 0.120292 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001926 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-24 00:14:05.928 Unity[8013:140659] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000028196c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  2.682 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2683ms)
-		BeginReloadAssembly (217ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (41ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (69ms)
-		EndReloadAssembly (2372ms)
-			LoadAssemblies (200ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (382ms)
+			SetupTypeCache (397ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (1190ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (223ms)
-				ProcessInitializeOnLoadAttributes (908ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (76ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3399 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 279.3 MB.
-System memory in use after: 279.4 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4043.
-Total: 2.928791 ms (FindLiveObjects: 0.162417 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.550542 ms  DeleteObjects: 0.134166 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 964.045473 seconds.
-  path: Assets/Scripts/Lock.cs
-  artifactKey: Guid(5a6c9eb9cfe4941d9824c83942ae635a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lock.cs using Guid(5a6c9eb9cfe4941d9824c83942ae635a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21758a4254337acb660c7da2ac08153a') in 0.006481 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002607 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-24 00:15:23.086 Unity[8013:140659] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000281eb50 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  2.690 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2691ms)
-		BeginReloadAssembly (218ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (41ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (69ms)
-		EndReloadAssembly (2377ms)
-			LoadAssemblies (203ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (379ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (1174ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (196ms)
-				ProcessInitializeOnLoadAttributes (916ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (76ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3399 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 279.5 MB.
-System memory in use after: 279.6 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4046.
-Total: 2.748459 ms (FindLiveObjects: 0.147125 ms CreateObjectMapping: 0.079208 ms MarkObjects: 2.402833 ms  DeleteObjects: 0.118333 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001177 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-24 00:16:46.115 Unity[8013:140659] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002864a80 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  2.564 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2564ms)
-		BeginReloadAssembly (213ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (41ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (2261ms)
-			LoadAssemblies (181ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (362ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (1152ms)
+			SetupLoadedEditorAssemblies (1206ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (207ms)
-				ProcessInitializeOnLoadAttributes (883ms)
+				BeforeProcessingInitializeOnLoad (198ms)
+				ProcessInitializeOnLoadAttributes (946ms)
 				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (76ms)
+			AwakeInstancesAfterBackupRestoration (65ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3399 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 279.8 MB.
-System memory in use after: 279.9 MB.
+Unloading 3402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 279.9 MB.
+System memory in use after: 280.0 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4049.
-Total: 3.017375 ms (FindLiveObjects: 0.160083 ms CreateObjectMapping: 0.082834 ms MarkObjects: 2.658333 ms  DeleteObjects: 0.114834 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4007.
+Total: 3.072917 ms (FindLiveObjects: 0.167750 ms CreateObjectMapping: 0.086042 ms MarkObjects: 2.697792 ms  DeleteObjects: 0.119791 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1169,64 +449,226 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 184.320935 seconds.
-  path: Assets/Scripts/Light.cs
-  artifactKey: Guid(5755843ba651ce1458ba0db18586dac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Light.cs using Guid(5755843ba651ce1458ba0db18586dac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858d675d8ee4cc1941a1247162291c94') in 0.008720 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 61.555319 seconds.
-  path: Assets/Scripts/LineOfDigits.cs
-  artifactKey: Guid(bb2906e0477cd4360b9154f71931e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LineOfDigits.cs using Guid(bb2906e0477cd4360b9154f71931e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b1bde3c82a3a7ee7707ab92b3fc635') in 0.001896 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001152 seconds.
+Registered in 0.002701 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-24 00:18:20.521 Unity[8013:140659] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000281cee0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-25 19:35:24.288 Unity[2111:50089] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000027dbbf0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
-- Completed reload, in  2.670 seconds
+- Completed reload, in  2.674 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2671ms)
-		BeginReloadAssembly (220ms)
+	ReloadAssembly (2675ms)
+		BeginReloadAssembly (223ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (42ms)
+			DisableScriptedObjects (40ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (71ms)
-		EndReloadAssembly (2356ms)
-			LoadAssemblies (191ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (2353ms)
+			LoadAssemblies (204ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (382ms)
+			SetupTypeCache (395ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (1188ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1209ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (193ms)
+				ProcessInitializeOnLoadAttributes (952ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (60ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 280.1 MB.
+System memory in use after: 280.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4010.
+Total: 2.797625 ms (FindLiveObjects: 0.156333 ms CreateObjectMapping: 0.078625 ms MarkObjects: 2.446583 ms  DeleteObjects: 0.114834 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002795 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-25 19:37:29.070 Unity[2111:50089] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000027f8bd0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.612 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2612ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (2295ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (391ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1165ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (911ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (63ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 280.3 MB.
+System memory in use after: 280.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4013.
+Total: 2.737708 ms (FindLiveObjects: 0.134667 ms CreateObjectMapping: 0.080209 ms MarkObjects: 2.397792 ms  DeleteObjects: 0.123958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002943 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-25 19:38:47.401 Unity[2111:50089] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000027fb2c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.711 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2712ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (2390ms)
+			LoadAssemblies (208ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1233ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (204ms)
-				ProcessInitializeOnLoadAttributes (923ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				BeforeProcessingInitializeOnLoad (203ms)
+				ProcessInitializeOnLoadAttributes (963ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (71ms)
+			AwakeInstancesAfterBackupRestoration (66ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 280.0 MB.
-System memory in use after: 280.1 MB.
+Unloading 3402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 280.6 MB.
+System memory in use after: 280.7 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4053.
-Total: 2.779375 ms (FindLiveObjects: 0.138917 ms CreateObjectMapping: 0.078375 ms MarkObjects: 2.445167 ms  DeleteObjects: 0.116083 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4016.
+Total: 2.688167 ms (FindLiveObjects: 0.167250 ms CreateObjectMapping: 0.083459 ms MarkObjects: 2.299750 ms  DeleteObjects: 0.136834 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001225 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-25 19:41:56.623 Unity[2111:50089] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000027edab0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.552 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2552ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (2237ms)
+			LoadAssemblies (197ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1155ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (189ms)
+				ProcessInitializeOnLoadAttributes (907ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (62ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 280.8 MB.
+System memory in use after: 280.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4019.
+Total: 2.629084 ms (FindLiveObjects: 0.127625 ms CreateObjectMapping: 0.077750 ms MarkObjects: 2.308667 ms  DeleteObjects: 0.114209 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

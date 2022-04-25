@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class FlashLight : InterectiveItem
+public class FlashLight : HandPicked
 {
     [SerializeField] private GameObject _light;
     public override void Take()

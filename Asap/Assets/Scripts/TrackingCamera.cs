@@ -2,19 +2,10 @@ using UnityEngine;
 
 public class TrackingCamera : MonoBehaviour
 {
-    private ObjectHold objectHold;
-
-    private void Start()
-    {
-        objectHold = GetComponentInParent<ObjectHold>();
-    }
     void Update()
     {
-        if (objectHold.hold)
-        {
-            Tracking();
-            InterectiveRotation();
-        }
+        Tracking();
+        InterectiveRotation();
     }
 
     void Tracking()

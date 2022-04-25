@@ -6,7 +6,7 @@ public class Crafting : MonoBehaviour
     [SerializeField] private GameObject crafting;
     [SerializeField] private Text[] slots;
     [SerializeField] private GameObject torch;
-    [SerializeField] private ObjectHold hand;
+    [SerializeField] private Hand hand;
     private Inventory inventory;
 
     const int size = 3;
@@ -42,7 +42,7 @@ public class Crafting : MonoBehaviour
         {
             inventory.RemoveItems();
             GameObject createdItem = Instantiate(torch);
-            inventory.AddItem(createdItem.GetComponent<InterectiveItem>());
+            inventory.AddItem(createdItem.GetComponent<PickableItem>());
             hand.TakeItem(createdItem.transform);
         }
     }

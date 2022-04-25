@@ -4,17 +4,17 @@ using UnityEngine.UI;
 public class Inventory : MonoBehaviour
 {
 
-    [SerializeField] private InterectiveItem[] items;
+    [SerializeField] private PickableItem[] items;
     [SerializeField] private GameObject inventory;
 
     const int size = 3;
 
     private void Awake()
     {
-        items = new InterectiveItem[size];
+        items = new PickableItem[size];
     }
 
-    public void AddItem(InterectiveItem item)
+    public void AddItem(PickableItem item)
     {
 
         for (int i = 0; i < size; i++)
