@@ -14,10 +14,9 @@ public class LockUI : MonoBehaviour
             {
                 return;
             }
-            Debug.Log("hihihi");
         }
-        inventory.AddItem(_object);
         gameObject.SetActive(false);
+        inventory.AddItem(_object);
     }
 
     private void Start()
@@ -26,6 +25,13 @@ public class LockUI : MonoBehaviour
         for(int i = 0; i < clocks.Length; i++)
         {
             clocks[i] = transform.GetChild(i).GetComponent<ScrollLock>();
+        }
+    }
+    private void Update() 
+    {
+        if(Input.GetKeyDown(KeyCode.G))
+        {
+            gameObject.SetActive(false);
         }
     }
 }

@@ -5,6 +5,7 @@ public class Hand : MonoBehaviour
     [SerializeField] private Vector2 size;
     [SerializeField] private LayerMask itemLayer;
     [SerializeField] private Inventory inventory;
+    public bool hand;
 
     void Update()
     {
@@ -15,18 +16,15 @@ public class Hand : MonoBehaviour
             {
                 if (collider.GetComponent<PickableItem>())
                 {
-                    Debug.Log("ХУЙ1");
                     inventory.AddItem(collider.GetComponent<PickableItem>());
                     collider.gameObject.SetActive(false);
                 }
                 else if (collider.GetComponent<HandPicked>())
                 {
-                    Debug.Log("ХУЙ2");
                     TakeItem(collider.transform);
                 }
                 else if(collider.GetComponent<InterectiveItem>())
                 {
-                    Debug.Log("ХУЙ3");
                     collider.GetComponent<InterectiveItem>().Interact();
                 }
             }
@@ -35,6 +33,7 @@ public class Hand : MonoBehaviour
 
     public void TakeItem(Transform item)
     {
+        hand = true;
         item.SetParent(transform);
         item.position = transform.position;
         item.GetComponent<HandPicked>().Take();

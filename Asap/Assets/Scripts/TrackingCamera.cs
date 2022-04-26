@@ -2,10 +2,14 @@ using UnityEngine;
 
 public class TrackingCamera : MonoBehaviour
 {
+    public Hand hand;
     void Update()
     {
-        Tracking();
-        InterectiveRotation();
+        if(hand.hand)
+        {
+            Tracking();
+            InterectiveRotation();
+        }
     }
 
     void Tracking()

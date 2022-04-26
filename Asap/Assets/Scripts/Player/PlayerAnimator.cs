@@ -23,6 +23,7 @@ public class PlayerAnimator : MonoBehaviour
     {
         if (velocity.y > offset)
         {
+            Debug.Log(velocity.y);
             _animator.Play("Stairs(Up)");
         }
          if (velocity.y < -offset)
