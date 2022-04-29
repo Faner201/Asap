@@ -21,15 +21,14 @@ public class PlayerAnimator : MonoBehaviour
  
     private void Animate(Vector2 velocity)
     {
-        if (velocity.y > offset)
+        if (velocity.y > 0)
         {
-            Debug.Log(velocity.y);
             _animator.Play("Stairs(Up)");
         }
-         if (velocity.y < -offset)
+        else if (velocity.y < 0)
         {
             _animator.Play("Stairs(Down)");
-        }
+        } 
         else if (velocity.x == 0)
         {
             _animator.Play("Stand");
