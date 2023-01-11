@@ -3,26 +3,28 @@
 ![7QAhfP](https://user-images.githubusercontent.com/62674880/168088752-41a4af3a-c090-416b-9dac-c51615a75e1b.png)
 
 
-Описание игры:
+Game description:
 
-В результате ядерного взрыва семья трехлетней Элизы была вынуждена переселиться в бункер. Они жили там вместе долгие годы, но своё 13-летие Элиза празднует одна. Тогда она решает, что ей пора выбираться из этого места и увидеть как теперь выглядит мир. Решите все загадки, убегайте от монстров и найдите выход из убежища! 
+As a result of a nuclear explosion, three-year-old Eliza's family has been forced to move into a bunker. They lived there together for years, but Elisa celebrates her 13th birthday alone. Then she decides it's time for her to get out of that place and see what the world looks like now. Solve all the puzzles, run away from the monsters and find your way out of the shelter! 
 
-Управление:
+Controls:
 
-WASD - передвижение
+WASD - move
 
-E - взаимодействие
+E - interact
 
-TAB - открыть/закрыть инвентарь
+TAB - open/close inventory
 
-G - закрытие окон загадок
+G - close puzzle windows
 
-Команда: Бункер
+Team: Bunker
 
-Геймдизайнер: Рязанова Екатерина Вадимовна
+Game Designer: Yekaterina Ryazanova
 
-Художница: Хлановская Дарьяна Евгеньевна
+Artist: Daryana Khlanovskaya
 
-Программист: Обухов Илья Игоревич
+Programmer: Ilya Obukhov
 
-Трейлер игры: https://youtu.be/2AnM8Yo7i00
+Game trailer: https://youtu.be/2AnM8Yo7i00
+
+Translated with www.DeepL.com/Translator (free version)
