@@ -26,5 +26,3 @@ Artist: Daryana Khlanovskaya
 Programmer: Ilya Obukhov
 
 Game trailer: https://youtu.be/2AnM8Yo7i00
-
-Translated with www.DeepL.com/Translator (free version)
